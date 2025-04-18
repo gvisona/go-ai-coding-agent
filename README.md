@@ -28,3 +28,16 @@ You can ask the agent to answer the question inside the `question.txt` file with
 
 Alternatively you can ask it to explain the contents of the `main.go` file.
 
+### Listing files
+
+Ask Claude `What files are in this directory?` and you will see it list the content.
+
+### File creation and editing
+
+You can ask it `Create a file hello.js that I can run with node that prints 'Hello World!' to the console`.
+
+Running in the terminal `node hello.js` should produce the desired result.
+
+The agent can also edit files. You can request for example ` Change the file hello.js so that the string printed is 'Hello Giovanni'`, and running the file will produce the new string.
+
+
